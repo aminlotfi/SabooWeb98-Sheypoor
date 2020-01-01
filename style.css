@@ -1,0 +1,110 @@
+@font-face {
+    font-family: Parastoo;
+    src: url('./fonts/Parastoo.eot');
+    src: url('./fonts/Parastoo.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Parastoo.woff') format('woff'),
+         url('./fonts/Parastoo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: ParastooBold;
+    src: url('./fonts/Parastoo-Bold.eot');
+    src: url('./fonts/Parastoo-Bold.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Parastoo-Bold.woff') format('woff'),
+         url('./fonts/Parastoo-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+* {
+    margin : 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #f4f5f7;
+    padding : 5px;
+}
+
+.positionContainer {
+    display: flex;
+    /* width: 70%; */
+    /* margin: auto; */
+    justify-content: space-between;
+}
+
+.navbarItem {
+    text-decoration: none;
+    color : black;
+    font-family: Parastoo;
+}
+
+.navbarRightItem {
+    margin: 0px 10px 0px 10px;
+}
+.navbarLeftItem {
+
+}
+.navbarItem :hover {
+    color :orangered;
+}
+
+.header {
+    width: 100%;
+    background-color: white;
+    padding: 5px;
+}
+
+#verifyAdButton {
+    font-family: parastoo;
+    font-size: 12px;
+    color: white;
+    background-color: #198ad6;
+    padding: 8px;
+    border: 0;
+    border-radius: 24px 24px 24px 24px;
+    cursor: pointer;
+}
+
+.main {
+    width: 100%;
+    background-color: #f4f5f7;
+    padding-top: 16px;
+}
+
+.columnDir {
+    display: flex;
+    flex-direction: column;
+}
+
+.searchBar {
+    margin-top: 50px;
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+.shadowBehind {
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+#searchInput {
+    font-family: parastoo;
+    width: 70%;
+    height: 50px;
+    padding: 24px;
+    border: 1px solid #bbbcbf;
+    border-radius: 5px;
+}
+
+
+#searchButtom {
+    font-family: parastoo;
+    width: 20%;
+    height: 50px;
+    /* padding: 24px; */
+    background-color: #eaedf2;
+    border: 1px solid #bbbcbf;
+    border-radius: 5px;
+}
