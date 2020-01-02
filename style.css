@@ -113,6 +113,11 @@
     border-radius: 5px;
 }
 
+#searchButtom:hover {
+    background-color: white;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
 .title {
     font-family: parastoo;
     /*padding: 15px;*/
@@ -147,6 +152,7 @@ h4 {
 
 .position ul {
     list-style-type: none;
+    padding-right: 0;
 }
 
 .column1 {
@@ -179,6 +185,7 @@ h4 {
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 li {
+    color: grey;
     width: 150px;
     border: 1px solid grey;
     border-radius: 15px;
@@ -186,11 +193,183 @@ li {
     margin: 4px 0 4px 0;
 }
 
-li :hover {
-    background-color: red;
+ul :hover {
+    color: orangered;
+    background-color: #eff0f1;
+    cursor: pointer;
 }
 
 p {
     color: black;
     font-weight: bold;
+    padding: 10px 40px 0 0;
 }
+p:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+hr {
+    width: 95%;
+    margin: 20px 5px 15px 0;
+}
+
+.category {
+    display: flex;
+    padding: 20px 0 10px 0;
+    width: 100%;
+    background-color: #f4f5f7;
+    padding-top: 16px;
+    font-family: parastoo;
+    font-size: 13px;
+    text-align: center;
+}
+
+.category1 {
+    background-color: white;
+    border: 1px solid #eff0f1;
+    border-radius: 10px;
+    width: 14%;
+    height: 80px;
+    margin-right: 90px;
+    margin-left: 10px;
+    padding-top: 40px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.category2 {
+    background-color: white;
+    border: 1px solid #eff0f1;
+    border-radius: 10px;
+    width: 14%;
+    margin-left: 10px;
+    padding-top: 40px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.category3 {
+    background-color: white;
+    border: 1px solid #eff0f1;
+    border-radius: 10px;
+    width: 14%;
+    margin-left: 10px;
+    padding-top: 40px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.category4 {
+    background-color: white;
+    border: 1px solid #eff0f1;
+    border-radius: 10px;
+    width: 14%;
+    margin-left: 10px;
+    padding-top: 40px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.category5 {
+    background-color: white;
+    border: 1px solid #eff0f1;
+    border-radius: 10px;
+    width: 14%;
+    margin-left: 10px;
+    padding-top: 40px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.category6 {
+    background-color: white;
+    border: 1px solid #eff0f1;
+    border-radius: 10px;
+    width: 14%;
+    margin-left: 10px;
+    padding-top: 40px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.category1:hover {
+    color: orangered;
+    cursor: pointer;
+}
+.category2:hover {
+    color: orangered;
+    cursor: pointer;
+}
+.category3:hover {
+    color: orangered;
+    cursor: pointer;
+}
+.category4:hover {
+    color: orangered;
+    cursor: pointer;
+}
+.category5:hover {
+    color: orangered;
+    cursor: pointer;
+}
+.category6:hover {
+    color: orangered;
+    cursor: pointer;
+}
+.title p{
+    background-color: #f4f5f7;
+    color: grey;
+    font-size: 20px;
+    padding-right: 70px;
+}
+
+.row1 {
+    display: flex;
+    padding: 20px 0 10px 0;
+    width: 100%;
+    background-color: #f4f5f7;
+    padding-top: 16px;
+    font-family: parastoo;
+    font-size: 13px;
+}
+
+.c1 {
+    border: 1px solid #eff0f1;
+    border-radius: 10px;
+    width: 22%;
+    height: 420px;
+    margin-right: 70px;
+    margin-left: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.c2 {
+    border: 1px solid #eff0f1;
+    border-radius: 10px;
+    width: 22%;
+    margin-left: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.c3 {
+    border: 1px solid #eff0f1;
+    border-radius: 10px;
+    width: 22%;
+    margin-left: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.c4 {
+    border: 1px solid #eff0f1;
+    border-radius: 10px;
+    width: 22%;
+    margin-left: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.row1 p{
+    padding: 0 5px 0 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#location {
+    color: grey;
+    font-size: 11px;
+    padding-top: 60px;
+}
+.r1c {
+    width: 95%;
+    height: 60%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+
