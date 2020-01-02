@@ -132,7 +132,6 @@
 
 .title {
     font-family: parastoo;
-    /*padding: 15px;*/
 }
 
 h2 {
@@ -141,15 +140,22 @@ h2 {
 h4 {
     padding: 0 10px 0 0;
 }
-
+span {
+    color: #0084ff;
+    font-family: parastoo;
+    font-weight: bold;
+    float: right;
+    margin-right: 165px;
+}
+span:hover {
+    color: orangered;
+    cursor: pointer;
+}
 .position {
     float: right;
     width: 20%;
     padding-right: 10px;
     background-color: white;
-    /*border: 1px solid grey;*/
-    /*border-radius: 5px;*/
-
 }
 
 .column {
@@ -233,7 +239,6 @@ hr {
 
 .category {
     display: flex;
-    /*padding: 20px 0 10px 0;*/
     width: 100%;
     background-color: #f9f9f9;
     padding-top: 16px;
@@ -251,7 +256,6 @@ hr {
     height: 80px;
     margin-right: 83px;
     margin-left: 10px;
-    /*padding-top: 40px;*/
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 .category2 {
@@ -261,7 +265,6 @@ hr {
     border-radius: 10px;
     width: 14%;
     margin-left: 10px;
-    /*padding-top: 40px;*/
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 .category3 {
@@ -271,7 +274,6 @@ hr {
     border-radius: 10px;
     width: 14%;
     margin-left: 10px;
-    /*padding-top: 40px;*/
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 .category4 {
@@ -281,7 +283,6 @@ hr {
     border-radius: 10px;
     width: 14%;
     margin-left: 10px;
-    /*padding-top: 40px;*/
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 .category5 {
@@ -291,7 +292,6 @@ hr {
     border-radius: 10px;
     width: 14%;
     margin-left: 10px;
-    /*padding-top: 40px;*/
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 .category6 {
@@ -301,8 +301,7 @@ hr {
     border-radius: 10px;
     width: 14%;
     margin-left: 10px;
-    /*padding-top: 40px;*/
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .category1:hover {
@@ -347,20 +346,27 @@ hr {
 .category6 p {
     margin-top: 40px;
 }
+
 .icon {
     margin: 10px 7px 0 0 ;
     width: 35px;
     height: 35px;
 }
+
 .title2 {
     margin-top: 50px;
 }
+
 .title2 p{
     background-color: #f9f9f9;
     font-family: parastoo;
     color: grey;
     font-size: 20px;
     padding: 100px 70px 0 0;
+}
+
+.title2 p:hover {
+    cursor: auto;
 }
 
 .row1 {
