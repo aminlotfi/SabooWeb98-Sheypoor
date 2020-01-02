@@ -22,7 +22,7 @@
 
 .navbar {
     width: 100%;
-    background-color: #f4f5f7;
+    background-color: #f9f9f9;
     padding : 5px;
 }
 
@@ -59,8 +59,10 @@
 
 .header {
     width: 100%;
+    height: 50px;
     background-color: white;
     padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .verifyAdButton {
@@ -79,7 +81,7 @@
 }
 .main {
     width: 100%;
-    background-color: #f4f5f7;
+    background-color: #f9f9f9;
     padding-top: 16px;
 }
 
@@ -102,7 +104,7 @@
 
 #searchInput {
     font-family: parastoo;
-    width: 70%;
+    width: 80%;
     height: 50px;
     padding: 24px;
     border: 1px solid #bbbcbf;
@@ -112,14 +114,16 @@
 
 #searchButtom {
     font-family: parastoo;
-    width: 25%;
+    width: 15%;
     height: 50px;
     /* padding: 24px; */
     background-color: #eaedf2;
     border: 1px solid #bbbcbf;
     border-radius: 5px;
 }
-
+#searchInput:hover {
+    border: 1px solid black;
+}
 #searchButtom:hover {
     background-color: white;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
@@ -151,7 +155,7 @@ h4 {
     display: flex;
     padding: 20px 0 10px 0;
     width: 100%;
-    background-color: #f4f5f7;
+    background-color: #f9f9f9;
     padding-top: 16px;
     font-family: parastoo;
     font-size: 13px;
@@ -191,7 +195,7 @@ h4 {
     margin-left: 10px;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
-li {
+.listDesign li {
     color: grey;
     width: 150px;
     border: 1px solid grey;
@@ -230,7 +234,7 @@ hr {
     display: flex;
     /*padding: 20px 0 10px 0;*/
     width: 100%;
-    background-color: #f4f5f7;
+    background-color: #f9f9f9;
     padding-top: 16px;
     font-family: parastoo;
     font-size: 13px;
@@ -351,7 +355,7 @@ hr {
     margin-top: 50px;
 }
 .title2 p{
-    background-color: #f4f5f7;
+    background-color: #f9f9f9;
     font-family: parastoo;
     color: grey;
     font-size: 20px;
@@ -362,7 +366,7 @@ hr {
     display: flex;
     padding: 20px 0 10px 0;
     width: 100%;
-    background-color: #f4f5f7;
+    background-color: #f9f9f9;
     padding-top: 16px;
     font-family: parastoo;
     font-size: 13px;
@@ -404,6 +408,9 @@ hr {
     font-size: 15px;
     font-weight: bold;
 }
+.row1:hover {
+    cursor: pointer;
+}
 
 #location {
     color: grey;
@@ -419,4 +426,86 @@ hr {
 
 #ignore:hover {
     color: black;
+}
+
+.button {
+    padding-top: 20px;
+    padding-bottom: 25px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.verifyAdButton2 {
+    font-family: parastoo;
+    font-size: 14px;
+    color: #0084ff;
+    font-weight: bold;
+    background-color: #f9f9f9;
+    padding: 8px;
+    border: 1px solid #0084ff;
+    border-radius: 24px 24px 24px 24px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.verifyAdButton2:hover {
+    color: orangered;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 1.5in;
+    background-color: #eff0f1;
+}
+.list {
+    font-family: parastoo;
+    font-size: 13px;
+    color: #62666d;
+    background-color: #eff0f1;
+    margin-right: 60px;
+}
+
+.pic {
+    display: flex;
+    background-color: #eff0f1;
+    width: 550px;
+    height: 110px;
+    margin-top: 5px;
+    margin-left: 60px;
+}
+.footer p {
+    margin-right: 0;
+    padding-bottom: 10px;
+}
+.footer p:hover {
+    color: black;
+}
+.list li {
+    padding-right: 5px;
+}
+
+.copyRight {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #d0d1d3;
+}
+.text p {
+    color: #62666d;
+    font-size: 12px;
+    margin-right: 70px;
+    font-weight: normal;
+    font-family: parastoo;
+    margin-top: 5px;
+
+}
+.text p:hover {
+    cursor: auto;
+}
+.socialMedia {
+    margin-top: 13px;
+    margin-right: 750px;
+}
+.socialMedia:hover {
+    cursor: pointer;
 }
