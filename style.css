@@ -50,6 +50,13 @@
     color :orangered;
 }
 
+#account{
+    display: flex;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
 .header {
     width: 100%;
     background-color: white;
@@ -202,7 +209,7 @@ ul :hover {
 p {
     color: black;
     font-weight: bold;
-    padding: 10px 40px 0 0;
+    padding: 10px 5px 0 0;
 }
 p:hover {
     color: orangered;
@@ -214,9 +221,14 @@ hr {
     margin: 20px 5px 15px 0;
 }
 
+.icons {
+    float: right;
+    margin: 6px 5px 0 10px;
+}
+
 .category {
     display: flex;
-    padding: 20px 0 10px 0;
+    /*padding: 20px 0 10px 0;*/
     width: 100%;
     background-color: #f4f5f7;
     padding-top: 16px;
@@ -226,59 +238,65 @@ hr {
 }
 
 .category1 {
+    display: flex;
     background-color: white;
     border: 1px solid #eff0f1;
     border-radius: 10px;
     width: 14%;
     height: 80px;
-    margin-right: 90px;
+    margin-right: 83px;
     margin-left: 10px;
-    padding-top: 40px;
+    /*padding-top: 40px;*/
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 .category2 {
+    display: flex;
     background-color: white;
     border: 1px solid #eff0f1;
     border-radius: 10px;
     width: 14%;
     margin-left: 10px;
-    padding-top: 40px;
+    /*padding-top: 40px;*/
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 .category3 {
+    display: flex;
     background-color: white;
     border: 1px solid #eff0f1;
     border-radius: 10px;
     width: 14%;
     margin-left: 10px;
-    padding-top: 40px;
+    /*padding-top: 40px;*/
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 .category4 {
+    display: flex;
     background-color: white;
     border: 1px solid #eff0f1;
     border-radius: 10px;
     width: 14%;
     margin-left: 10px;
-    padding-top: 40px;
+    /*padding-top: 40px;*/
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 .category5 {
+    display: flex;
     background-color: white;
     border: 1px solid #eff0f1;
     border-radius: 10px;
     width: 14%;
     margin-left: 10px;
-    padding-top: 40px;
+    /*padding-top: 40px;*/
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 .category6 {
+    display: flex;
     background-color: white;
     border: 1px solid #eff0f1;
     border-radius: 10px;
     width: 14%;
     margin-left: 10px;
-    padding-top: 40px;
+    /*padding-top: 40px;*/
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -306,11 +324,38 @@ hr {
     color: orangered;
     cursor: pointer;
 }
-.title p{
+.category1 p {
+    margin-top: 40px;
+}
+.category2 p {
+    margin-top: 40px;
+}
+.category3 p {
+    margin-top: 40px;
+}
+.category4 p {
+    margin-top: 40px;
+}
+.category5 p {
+    margin-top: 40px;
+}
+.category6 p {
+    margin-top: 40px;
+}
+.icon {
+    margin: 10px 7px 0 0 ;
+    width: 35px;
+    height: 35px;
+}
+.title2 {
+    margin-top: 50px;
+}
+.title2 p{
     background-color: #f4f5f7;
+    font-family: parastoo;
     color: grey;
     font-size: 20px;
-    padding-right: 70px;
+    padding: 100px 70px 0 0;
 }
 
 .row1 {
@@ -372,4 +417,6 @@ hr {
     border-radius: 10px;
 }
 
-
+#ignore:hover {
+    color: black;
+}
