@@ -162,7 +162,7 @@ span:hover {
     padding: 20px 0 10px 0;
     width: 100%;
     background-color: #f9f9f9;
-    padding-top: 16px;
+    padding-top: 45px;
     font-family: parastoo;
     font-size: 13px;
 }
@@ -373,8 +373,8 @@ hr {
     background-color: #f9f9f9;
     font-family: parastoo;
     color: grey;
-    font-size: 20px;
-    padding: 100px 70px 0 0;
+    font-size: 18px;
+    padding: 35px 70px 0 0;
 }
 
 .title2 p:hover {
@@ -491,6 +491,9 @@ hr {
     height: 110px;
     margin-top: 5px;
     margin-left: 60px;
+}
+.pic :hover {
+    cursor: pointer;
 }
 .footer p {
     margin-right: 0;
