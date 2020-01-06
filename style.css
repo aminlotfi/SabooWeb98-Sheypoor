@@ -28,8 +28,6 @@
 
 .positionContainer {
     display: flex;
-    /* width: 70%; */
-    /* margin: auto; */
     justify-content: space-between;
 }
 
@@ -105,19 +103,20 @@
 
 #searchInput {
     font-family: parastoo;
-    width: 80%;
+    width: 81%;
     height: 50px;
     padding: 24px;
     border: 1px solid #bbbcbf;
     border-radius: 5px;
+    margin-right: 60px;
 }
+
 
 
 #searchButtom {
     font-family: parastoo;
-    width: 15%;
+    width: 10%;
     height: 50px;
-    /* padding: 24px; */
     background-color: #eaedf2;
     border: 1px solid #bbbcbf;
     border-radius: 5px;
@@ -141,11 +140,11 @@ h4 {
     padding: 0 10px 0 0;
 }
 span {
+    display: flex;
     color: #0084ff;
     font-family: parastoo;
     font-weight: bold;
     float: right;
-    margin-right: 165px;
 }
 span:hover {
     color: orangered;
@@ -173,6 +172,18 @@ span:hover {
     padding-right: 0;
 }
 
+.cright {
+    display: flex;
+    float: right;
+}
+.cleft {
+    display: flex;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+
+}
 .column1 {
     border: 1px solid #eff0f1;
     border-radius: 10px;
@@ -218,6 +229,7 @@ ul :hover {
 }
 
 p {
+    display: flex;
     color: black;
     font-weight: bold;
     padding: 10px 5px 0 0;
